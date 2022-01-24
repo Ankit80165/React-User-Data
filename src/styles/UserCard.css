@@ -1,0 +1,26 @@
+.icons {
+  color: #2774cd;
+  font-size: 1.25rem;
+}
+h5,
+h6 {
+  text-align: center;
+  color: #6c757d;
+  text-shadow: #6c757d;
+  text-align: left;
+}
+h5 {
+  font-weight: 800;
+}
+h6 {
+  font-size: 0.95rem;
+}
+
+.card {
+  box-shadow: 5px 3px 10px 3px #c4bdbd;
+  transition: transform linear 0.15s;
+}
+.card:hover {
+  box-shadow: 5px 3px 10px 3px #d6cfcf;
+  transform: scale(1.05);
+}

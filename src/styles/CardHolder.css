@@ -1,0 +1,22 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card-holder {
+  margin: 0 auto;
+}
+@media only screen and (min-width: 981px) {
+  .wrapper {
+    padding: 0rem 5rem;
+  }
+}
+@media only screen and (max-width: 981px) {
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 680px) {
+  .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
