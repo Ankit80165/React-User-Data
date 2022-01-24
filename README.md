@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### How I solve this problem
+
+First I made a design how the website will look. Then I have analyzed what components
+should look like. After deciding all components I made a data flow diagram and how components
+will communicate with each other. After getting idea all about data and components, I start
+the implementation part. I implement all the components and then define states and communicate with all the components.
+As the project was quite simple I haven't faced any such major problems.
